@@ -1,0 +1,13 @@
+<html>
+<body>
+<button onclick="displayJSON()">go</button>
+</body>
+<script>
+function displayJSON(){
+var obj = JSON.parse('{"employees": [{"firstName": "John", "lastName": "Doe"},{ "firstName": "Anna","lastName": "Smith"},{"firstName": "Peter","lastName": "Jones"}]}')
+for (employee of obj.employees){
+console.log(employee.firstName)
+}
+}
+</script>
+</html>
