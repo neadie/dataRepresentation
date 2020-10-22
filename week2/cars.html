@@ -1,0 +1,66 @@
+<html>
+    <title>Cars</title>
+    <style>
+        table, th, td {
+  border: 1px solid black;
+}
+    </style>
+    <body>
+        <h1><b>Cars</b></h1>
+    </body>
+    <body>
+
+        <button type="button">Create</button> <br/>
+        <h2> All Cars</h2>
+        <table>
+            <tr>
+                <th>reg</th>
+                <th>make</th>
+                <th>model</th>
+                <th>price</th>
+                <th>Update</th>
+                <th> Delete</th>
+            </tr>
+            <tr>
+                <td>191 M0 123</td>
+                <td>Ford</td>
+                <td>Modeo</td>
+                <td>25,000</td>
+                <td><button type="button">Update</button></td>
+                <td><button type="button">Delete</button> </td>
+            </tr>
+            <tr>
+                <td>12 D 123</td>
+                <td>Fiat</td>
+                <td>Punto</td>
+                <td>4,000</td>
+                <td><button type="button">Update</button></td>
+                <td><button type="button">Delete</button> </td>
+            </tr>
+            <tr>
+                <td>08 G 123</td>
+                <td>Nissan</td>
+                <td>Almera</td>
+                <td>500</td>
+                <td><button type="button">Update</button></td>
+                <td><button type="button">Delete</button> </td>
+            </tr>
+           
+        </table>
+        <br/>
+        <h2>Create a Update this Car</h2>
+        <form method="GET">
+            Reg <input type="text"  name ="reg"/><br/>
+            make <select name="make">
+                <option value="Ford">Ford</option>
+                <option value="Fiat">Fiat</option>
+                <option value="Nissan">Nissan</option>
+                </select><br/>
+            model <input type="text"/><br/>
+            price <input type="number"></br/>
+            
+            <button type="submit">Update</button>
+            <button type="submit">Delete</button> 
+        </form>
+    </body>
+</html>

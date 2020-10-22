@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+   <book category="cookery">
+      <isbn-10>1400052580</isbn-10>
+      <isbn-13>9781400052585</isbn-13>
+      <title lang="en">Everyday Italian</title>
+      <author>Giada De Laurentiis</author>
+   </book>
+   <book category="technical">
+      <isbn-10>0672324792</isbn-10>
+      <isbn-13>9780672324796</isbn-13>
+      <title lang="en">XQuery Kick Start</title>
+      <author>James McGovern</author>
+      <author>Per Bothner</author>
+      <author>Kurt Cagle</author>
+      <author>James Linn</author>
+      <author>Vaidyanathan Nagarajan</author>
+   </book>
+   <book category="technical">
+      <title lang="en">Learning XML</title>
+      <author>Erik T. Ray</author>
+      <isbn-10>0596004206</isbn-10>
+      <isbn-13>9780596004200</isbn-13>
+   </book>
+</library>
